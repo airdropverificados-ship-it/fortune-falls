@@ -1,26 +1,29 @@
-# Fortune Falls — Complete Play-Money Casino (9 Games)
+# Fortune Falls — Launch Your Own Online Casino
 
-A complete play-money casino: 9 games, global crash running 24/7, hidden admin panel and payment-gateway plumbing, mobile-first. No real money, ever.
-
-**Price: $349 one-time — full source code, no royalties.**
+A complete online casino platform: 9 games, global crash running 24/7, full admin control and real-money payments ready to connect. **$349 one-time — full source code, no royalties, no monthly fees.**
 
 - 🎰 **Live demo (try it now, no sign-up):** https://app-code-vault.netlify.app/demo/fortune-falls/
-- 🛒 **Buy it here:** https://app-code-vault.netlify.app/apps/fortune-falls.html
+- 🛒 **Buy the full source:** https://app-code-vault.netlify.app/apps/fortune-falls.html
 
-## What it is
+## Why own a casino instead of playing in one
 
-Fortune Falls is a complete casino with fake chips: nine games — slots, European roulette, blackjack, crash, dice, mines, plinko, limbo and a fortune wheel — in a lobby with a promo carousel, game search, live player counts and a big-wins feed, plus a simulated live chat, VIP levels and synthesized sound. Chips are a game score: they cannot be bought, sold or cashed out.
+Every bet placed on your casino earns you the house edge. Fortune Falls gives you the whole platform — games, lobby, players, admin, payments — so you can open your doors in hours and keep 100% of what your players lose. No revenue share, no monthly license, no backend to maintain.
 
-Version 3.0 adds what buyers of a real casino ask for first:
+## What you get
 
-- **GLOBAL crash 24/7** — shared rounds for every player: 6-second betting window, live flight, explosion, shared history and round player list; 99% RTP, up to 100x.
-- **Live-bets feed** across the lobby, like a real casino floor.
-- **HIDDEN admin panel** (unlisted page, password set by the buyer) that controls the whole economy: starting chips, daily bonus, RTP per game, bet limits, games on/off, simulated players, banners and data reset.
-- **Payment-gateway plumbing** for real deposits and withdrawals (API URL, public key, secret key, webhook URL, currency). No keys, tokens or provider are included: the buyer connects their own gateway.
+**9 games, ready to earn from day one** — slots (paytable up to ×50), European roulette (single zero), blackjack (dealer stands on 17, 3:2), crash, dice, mines, plinko, limbo and fortune wheel (up to 1000x).
 
-Players start with 100,000 chips and claim a 5,000-chip daily bonus. Stats, bet history and VIP progress are saved in the browser — no accounts, no database, no server bills.
+**GLOBAL crash 24/7** — one shared round for every player: 6-second betting window, live flight, explosion, shared history and round player list. The game your players never leave.
 
-## Games and odds
+**You set the odds.** The hidden admin panel controls the whole economy: RTP per game, bet limits, starting chips, daily bonus, games on/off, banners, simulated players and full data reset. Tune the house edge exactly how you want it.
+
+**Real-money ready.** Deposit and withdrawal plumbing is built in — `deposit()` / `withdraw()` with idempotency keys and HMAC webhook verification. Connect your own payment gateway and accept real deposits and pay real withdrawals. No keys, tokens or provider are included: you connect yours.
+
+**A casino that never looks empty.** Live-bets feed across the lobby, big-wins feed, simulated live chat and VIP levels — your floor feels alive from the very first player.
+
+**Mobile-first.** Bottom app-style navigation, collapsible sections, 48px touch targets, no horizontal scroll. Most of your players are on their phones — the casino is built for that.
+
+## Games and house edge
 
 | Game | RTP |
 | --- | --- |
@@ -34,26 +37,23 @@ Players start with 100,000 chips and claim a 5,000-chip daily bonus. Stats, bet 
 | Limbo (up to 1000x) | 99% |
 | Fortune wheel (up to 49.50x) | 99% |
 
+RTP is configurable per game from the admin panel.
+
 ## Tech
 
-- Plain HTML/CSS/JavaScript — no build step, no backend. Open `index.html` and play, or host it anywhere for free.
+- Plain HTML/CSS/JavaScript — no build step, no backend, no database. Open `index.html` and play, or host it anywhere for free.
 - Canvas + SVG wheels, WebAudio synthesized sound (no audio files).
-- Mobile-first: bottom app-style navigation, collapsible sections, compact 3-across cards, 48px touch targets, no horizontal scroll.
 - Game logic verified by automated tests (16 tests, including global crash rounds, admin auth and payments).
 
 ## What's included in the purchase
 
-- Complete, documented source code (all 9 games, lobby, admin panel).
+- Complete, documented source code (all 9 games, lobby, admin panel, payment plumbing).
 - README with setup and architecture notes.
 - Test and verification notes.
 - Pre-revenue / pre-launch codebase — no users, revenue or traffic included.
 
-The bot delivers the files in chat after verifying your purchase.
-
-## No real money
-
-Fortune Falls is a game with fake chips. It has no real-money gambling and no payments connected: the admin panel includes the fields to connect the buyer's own payment gateway, but no keys, tokens or provider are included, and the demo never moves real money.
+The demo runs with trial chips so you can test everything before buying. The bot delivers the files in chat after verifying your purchase.
 
 ## License
 
-All rights reserved. The source code is sold under a one-time license for a single project — no redistribution, no resale of the code itself.
+All rights reserved. The source code is sold under a one-time license for a single project — no redistribution, no resale of the code itself. You connect your own payment provider and operate under your own license where required.
