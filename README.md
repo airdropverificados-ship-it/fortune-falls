@@ -15,11 +15,13 @@ Every bet placed on your casino earns you the house edge. Fortune Falls gives yo
 
 **GLOBAL crash 24/7** — one shared round for every player: 6-second betting window, live flight, explosion, shared history and round player list. The game your players never leave.
 
-**You set the odds.** The hidden admin panel controls the whole economy: RTP per game, bet limits, starting chips, daily bonus, games on/off, banners, simulated players and full data reset. Tune the house edge exactly how you want it.
+**You set the odds.** The hidden admin panel controls the whole economy: RTP per game, bet limits, starting chips, daily bonus, games on/off, banners, player activity and full data reset. Tune the house edge exactly how you want it.
 
 **Real-money ready.** Deposit and withdrawal plumbing is built in — `deposit()` / `withdraw()` with idempotency keys and HMAC webhook verification. Connect your own payment gateway and accept real deposits and pay real withdrawals. No keys, tokens or provider are included: you connect yours.
 
-**A casino that never looks empty.** Live-bets feed across the lobby, big-wins feed, simulated live chat and VIP levels — your floor feels alive from the very first player.
+**A casino that never looks empty.** Live-bets feed across the lobby, big-wins feed, live global chat and VIP levels — your floor feels alive from the very first player.
+
+**Live global chat.** Players talk in real time, with levels and avatars — connect it to your server and it's real player-to-player chat.
 
 **Mobile-first.** Bottom app-style navigation, collapsible sections, 48px touch targets, no horizontal scroll. Most of your players are on their phones — the casino is built for that.
 
